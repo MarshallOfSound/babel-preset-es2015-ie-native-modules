@@ -1,11 +1,11 @@
-# babel-preset-es2015-ie
+# babel-preset-es2015-ie-native-modules
 
-> Babel preset for all es2015 plugins that works with IE>=9.
+> Babel preset for all es2015 plugins that works with IE>=9, without commonjs transform to enable tree shaking
 
 ## Install
 
 ```sh
-$ npm install --save-dev babel-preset-es2015-ie
+$ npm install --save-dev babel-preset-es2015-ie-native-modules
 ```
 
 ## Usage
@@ -16,20 +16,20 @@ $ npm install --save-dev babel-preset-es2015-ie
 
 ```json
 {
-  "presets": ["es2015-ie"]
+  "presets": ["es2015-ie-native-modules"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel script.js --presets es2015-ie
+$ babel script.js --presets es2015-ie-native-modules
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["es2015-ie"]
+  presets: ["es2015-ie-native-modules"]
 });
 ```
