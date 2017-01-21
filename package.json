@@ -14,7 +14,9 @@
     "IE9",
     "IE10",
     "internet explorer 9",
-    "internet explorer 10"
+    "internet explorer 10",
+    "native modules",
+    "treeshaking"
   ],
   "author": "Jeff McRiffey",
   "license": "MIT",
@@ -34,7 +36,6 @@
     "babel-plugin-transform-es2015-for-of": "^6.6.0",
     "babel-plugin-transform-es2015-function-name": "^6.5.0",
     "babel-plugin-transform-es2015-literals": "^6.5.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.6.0",
     "babel-plugin-transform-es2015-object-super": "^6.5.0",
     "babel-plugin-transform-es2015-parameters": "^6.6.0",
     "babel-plugin-transform-es2015-shorthand-properties": "^6.5.0",
